@@ -26,7 +26,7 @@ $\Rightarrow$ L'objectif de la Data Science est de mettre une connaissance sur u
 
 ### Acquisition des données
 
-* [[Web Scrapping]]
+* [[Web Scraping]]
 * Données dispersées sur plusieurs fichiers
 * Formats hétérogènes
 

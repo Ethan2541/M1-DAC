@@ -15,7 +15,7 @@ L'avantage de cette représentation est l'absence de biais (toutes les valeurs s
 
 En traitement du langage, il consiste à représenter un document sous la forme d'un vecteur de présence de la taille du vocabulaire V. Parfois, on retire de ce vocabulaire une liste de stopwords : des mots très fréquemment utilisés et pauvres en signification.
 
-Alternativement, pour un document de taille N, on peut utiliser une matrice de présence comportant N lignes et $|V|$ colonnes.
+Alternativement, pour un document de taille N, on peut utiliser une matrice de présence (similaire à une bitmap) comportant N lignes et $|V|$ colonnes.
 
 Cette méthode présente plusieurs désavantages :
 - Données pauvres : dans le cas de la matrice notamment, on a beaucoup de 0
