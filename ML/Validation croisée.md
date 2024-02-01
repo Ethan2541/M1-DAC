@@ -1,5 +1,6 @@
 
 
+![[kfolds.jpg]]
 ## Définition
 
 <hr>
@@ -13,7 +14,7 @@ Cependant, cette méthode est sensible au déséquilibre de classes (cf. [[Équi
 
 <hr>
 
-Dans cette variante de validation croisée, on a un paramètre $K$ généralement compris entre 5 et 10. Le principe est de découper le jeu de données en $K$ paquets, puis de réaliser l'apprentissage sur $K-1$ de ces paquets avant d'évaluer le modèle sur le dernier paque.
+Dans cette variante de validation croisée, on a un paramètre $K$ généralement compris entre 5 et 10. Le principe est de découper le jeu de données en $K$ paquets, puis de réaliser l'apprentissage sur $K-1$ de ces paquets avant d'évaluer le modèle sur le dernier paquet.
 
 Il s'agit ensuite de répéter jusqu'à ce que chaque paquet ait servi à l'évaluation des performances du modèle.
 
@@ -23,3 +24,5 @@ Il s'agit ensuite de répéter jusqu'à ce que chaque paquet ait servi à l'éva
 <hr>
 
 Cette variante est un cas extrême des K-Folds avec $K = n$ où $n$ est la taille du jeu de données. Elle est également plus appropriée dans les cas où $n$ est petit.
+
+Cette méthode a l'avantage d'être pas ou peu biaisée, mais introduit une variance significative.
