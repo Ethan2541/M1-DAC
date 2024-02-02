@@ -1,0 +1,4 @@
+
+
+Convexité
+Régularité (smoothness)
