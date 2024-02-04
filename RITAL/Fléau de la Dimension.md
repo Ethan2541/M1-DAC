@@ -19,6 +19,6 @@ Pour atténuer ce fléau, un moyen efficace est la [[Régularisation Laplacienne
 
 **Difficultés à visualiser :** visualiser des espaces à haute dimension est complexe, et projeter les données sur des espaces de dimension moins élevée peut induire une perte d'informations.
 
-**Distorsion des métriques de distance :** dans les espaces de haute dimension, les écarts de distance sont négligeables. Des algorithmes comme la [[Méthode des K-plus-proches-voisins]] sont ainsi susceptibles de mal fonctionner.
+**Distorsion des métriques de distance :** dans les espaces de haute dimension, les écarts de distance sont négligeables. Des algorithmes comme la [[Algorithme des K-plus-proches-voisins]] sont ainsi susceptibles de mal fonctionner.
 
 **[[Surapprentissage]] :** le modèle a des difficultés à généraliser, en partie à cause de la misère de données.

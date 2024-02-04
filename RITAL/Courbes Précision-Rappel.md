@@ -17,4 +17,4 @@ $$R = \frac{TP}{TP + FN}$$
 
 Les courbes de précision-rappel permettent d'évaluer le compromis entre la précision du modèle et sa capacité de détection pour différents seuils de classification. L'AUC, l'aire sous la courbe, mesure ce compromis. Plus l'AUC est proche de 1, plus le modèle détecte un grand nombre de cas positifs sans se tromper.
 
-Pour comparer avec les [[Courbes ROC]], si ces deux modèles de courbes permettent d'évaluer les performances d'un modèle, les courbes de Précision-Rappel sont plus adaptés lorsque les classes sont déséquilibrées.
+Pour comparer avec les [[Courbes ROC]], si ces deux modèles de courbes permettent d'évaluer les performances d'un modèle, les courbes de Précision-Rappel sont plus adaptés lorsque les classes sont déséquilibrées puisqu'elles se concentrent uniquement sur les performances de la classe positive, souvent minoritaire.

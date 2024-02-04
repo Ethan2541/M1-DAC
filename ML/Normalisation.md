@@ -31,4 +31,4 @@ La standardisation permet de centrer une distribution (de préférence supposée
 $$Z = \frac{X - \mu}{\sigma}$$
 En particulier, le Z Score (cote Z) est une métrique indiquant de combien d'écarts-types $\sigma$, une donnée est éloignée de la moyenne $\mu$ de sa distribution.
 
-Cette technique est utile lorsque la distribution est connue (moyenne et variance), et lorsque le modèle (notamment [[Méthode des K-plus-proches-voisins]], [[Algorithme des K-Moyennes]], ...) comporte plusieurs caractéristiques (pour la mise à l'échelle).
+Cette technique est utile lorsque la distribution est connue (moyenne et variance), et lorsque le modèle (notamment [[Algorithme des K-plus-proches-voisins]], [[Algorithme des K-Moyennes]], ...) comporte plusieurs caractéristiques (pour la mise à l'échelle).

@@ -19,6 +19,6 @@ Le principe de la courbe ROC est de déterminer le taux de vrais positifs et le 
 
 ![[courbesroc.png]]
 
-L'AUC (Area Under Curve) représente l'aire sous la courbe (inférieure à 1). Plus elle est proche de 1, plus le modèle est capable de distinguer les classes positives des classes négatives.
+L'AUC (Area Under Curve) représente l'aire sous la courbe (inférieure à 1). Plus elle est proche de 1, plus le modèle est capable de distinguer la classe positive (souvent la classe minoritaire) de la classe négative (classe majoritaire en pratique).
 
-Attention, cependant, cette métrique peut être sujette à confusion dans le cas où les classes sont fortement déséquilibrées (cf. [[Équilibrage des classes]]).
+Attention, cependant, cette métrique peut être sujette à confusion dans le cas où les classes sont fortement déséquilibrées (cf. [[Équilibrage des classes]]) car le taux de faux positifs devient rapidement très petit lorsque TN augmente.
