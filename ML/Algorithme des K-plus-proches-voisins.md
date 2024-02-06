@@ -1,8 +1,8 @@
 
 
 L'algorithme KNN est un algorithme d'apprentissage automatique supervisé.
-- *Optical Character Recognizer : détection de l'écriture manuscrite*
-- *Notations de crédit*
+- `Optical Character Recognizer : détection de l'écriture manuscrite`
+- `Notations de crédit`
 
 Si l'on se donne une entrée $x$, alors il s'agit de trouver les $K$ plus proches voisins au sens de la distance $||\cdot||$. En régression, on attribue à $x$ la moyenne ou la médiane des variables. En classification, on prédit la classe de $x$ selon la classe majoritaire parmi ces $K$ points.
 
