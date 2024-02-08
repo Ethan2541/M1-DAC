@@ -15,7 +15,7 @@ La normalisation est une technique dont le but est de transformer les caractéri
 
 Le scaling permet de convertir une plage de valeurs, dont le minimum et le maximum sont connus, en une plage standard entre 0 et 1 :
 $$x' = \frac{x - x_{min}}{x_{max} - x_{min}}$$
-Les données sont alors réparties plus ou moins uniformément.
+Les données sont alors réparties plus ou moins uniformément. Cette formule est également utilisée, quoique légèrement altérée, pour la normalisation entre $-1$ et $1$.
 
 ### Clipping
 
