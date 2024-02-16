@@ -1,3 +1,3 @@
 
 
-= Vecteurs de plongement de mots
+= Plongements Lexicaux
