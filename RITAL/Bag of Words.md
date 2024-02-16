@@ -24,7 +24,7 @@ Inconvénients :
 
 ### Tokenisation
 
-La tokenisation est une étape de pré-traitement qui consiste à découper les données textuelles en une série de tokens (lettres, mots, [[N-Grams]], ...)
+La tokenisation est une étape de pré-traitement qui consiste à découper les données textuelles en une série de lexèmes (lettres, mots, [[N-Grams]], ...)
 
 ### Encodage
 
