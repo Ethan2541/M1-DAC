@@ -3,7 +3,7 @@
 
 <hr>
 
-On parle de misère de données lorsque l'on manque de données ou que la plupart des valeurs sont absentes.
+On parle de données parcimonieuses lorsque l'on manque de données ou que la plupart des valeurs sont absentes.
 
 Cela se produit notamment lorsque la dimension du problème est très élevée (cf. [[Fléau de la Dimension]]).
 

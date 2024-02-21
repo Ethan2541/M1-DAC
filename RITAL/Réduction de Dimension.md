@@ -1,6 +1,6 @@
 
 
-La réduction de dimension regroupe un ensemble de techniques permettant de passer de données sur un espace à haute dimension, à des données sur un espace de faible dimension. Cela permet notamment de faciliter la visualisation, mais aussi de limiter le [[Fléau de la Dimension]] et donc la [[Data Sparsity]].
+La réduction de dimension regroupe un ensemble de techniques permettant de passer de données sur un espace à haute dimension, à des données sur un espace de faible dimension. Cela permet notamment de faciliter la visualisation, mais aussi de limiter le [[Fléau de la Dimension]] et donc la [[Données Parcimonieuses]].
 
 Il existe des techniques de projection linéaires comme l'Analyse en Composantes Principales, mais aussi non linéaire comme t-SNE.
 

@@ -15,7 +15,7 @@ Pour atténuer ce fléau, un moyen efficace est la [[Régularisation Laplacienne
 
 <hr>
 
-**[[Data Sparsity]] :** dans des espaces à haute dimension, le nombre d'exemples nécessaire pour couvrir l'espace augmente, ce qui rend difficile la reconnaissance de patterns.
+**[[Données Parcimonieuses]] :** dans des espaces à haute dimension, le nombre d'exemples nécessaire pour couvrir l'espace augmente, ce qui rend difficile la reconnaissance de patterns.
 
 **Difficultés à visualiser :** visualiser des espaces à haute dimension est complexe, et projeter les données sur des espaces de dimension moins élevée peut induire une perte d'informations.
 
