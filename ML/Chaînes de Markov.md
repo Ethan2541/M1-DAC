@@ -19,7 +19,7 @@ Dans ce cas, $\Pi A^n$ converge indépendamment du choix de $\Pi$. Pour trouver 
 
 <hr>
 
-Dans le cas des chaînes de Markov cachées, l'ensemble des observations et les états sont indépendants.
+Dans le cas des chaînes de Markov cachées, l'ensemble des observations et les états sont indépendants. Les chaînes de Markov cachées sont des modèles génératifs car elles donnent un prior sur les états en plus des distributions conditionnelles, permettant de générer des séquences.
 
 On ajoute également un nouveau paramètre $B = (p(x_t=e_j|s_t=q_i))_{i,j}$
 
