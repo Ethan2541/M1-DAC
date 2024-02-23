@@ -29,7 +29,7 @@ On découpe parfois le jeu de données en 3 pour introduire un jeu de validation
 
 <hr>
 
-Il faut également bien prendre conscience qu'il est important de mélanger les exemples (shuffle) pour ne pas introduire de biais, à moins que le jeu de données ne soit trop grand (ce qui ralentirait la pipeline), déjà mélangé, ou arrangé de la bonne façon.
+Il faut également bien prendre conscience qu'il est important de mélanger les exemples (cf. [[Randomisation]]) pour ne pas introduire de biais, à moins que le jeu de données ne soit trop grand (ce qui ralentirait la pipeline), déjà mélangé, ou arrangé de la bonne façon.
 
 Le cas des séries temporelles est différent. On souhaite préserver la continuité des données (prédire le futur à partir du passé). On ne peut pas non plus prendre un morceau d'exemples successifs (et donc une seule période de temps) pour éviter de biaiser notre modèle.
 

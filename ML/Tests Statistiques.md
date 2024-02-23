@@ -4,7 +4,7 @@
 
 <hr>
 
-On suppose la taille de l'échantillon connue égale à $n > 30$, et on se donne deux hypothèses $H_0$ et $H_1$ portant sur un paramètre du modèle. Pour faciliter les calculs, on s'efforce de choisir $H_0$ simple (condition d'égalité).
+On suppose la taille de l'échantillon connue égale à $n > 30$, et on se donne deux hypothèses $H_0$ et $H_1$ portant sur un paramètre du modèle. Pour faciliter les calculs, on s'efforce de choisir $H_0$ simple (condition d'égalité sur la moyenne ou la variance généralement). On appelle $H_0$ hypothèse nulle.
 
 1. On possède $n$ variables aléatoires d'espérance $\mu$ et de variance $\sigma^2$. Par le [[Théorème Central Limite]], la moyenne empirique $\bar{X}$ suit une loi normale de paramètres $(\mu,(\frac{\sigma}{\sqrt{n}})^2)$.
 2. Le risque est $\alpha = p(\text{rejet } H_0|H_0) = p(\bar{X}>c|\bar{X}\sim\mathcal{N}(\mu, (\frac{\sigma}{\sqrt{n}})^2)$

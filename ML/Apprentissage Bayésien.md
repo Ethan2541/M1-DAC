@@ -17,17 +17,6 @@ La décision bayésienne consiste à étudier le rapport $\frac{p(y_+|x)}{p(y_-|
 **NB :** le dénominateur $p(x)$ n'est pas important dans le contexte de maximisation puisque $x$ est fixé.
 
 
-## Notion de Risque
-
-<hr>
-
-**Fonction de perte 0-1 loss (mesure de l'erreur) :** $l(f(x),y) = \delta_{f(x),y}$
-
-**Risque associé (espérance du coût) :** $R(y_i|x) = \sum_j l(y_i,y_j)p(y_i|x) = 1 - p(y_i|x)$
-
-**Risque complet :** $R(f) = \int_\mathcal{X} R(f(x)|x)p(x)dx$
-
-
 ## Naive Bayes
 
 <hr>

@@ -25,7 +25,7 @@ Cette fonction permet ainsi de compter le nombre de classifications correctes.
 
 ### Hinge Loss
 
-Cette fonction est communément utilisée pour les modèles du type [[RITAL/Machines à Vecteurs de Support]] ou [[Perceptron]].
+Cette fonction est communément utilisée pour les modèles du type [[Machines à Vecteurs de Support]] ou [[Perceptron]].
 $$l(y,w) = \max \{0, \alpha + 1 - yw^tx\}$$
 où $\alpha$ est une marge permettant de mieux séparer les valeurs nulles des valeurs non nulles.
 
