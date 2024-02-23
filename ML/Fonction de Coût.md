@@ -36,7 +36,7 @@ $$H(p,q) = -\sum_y p(x) \log(q(x))$$
 
 ### Binary Cross Entropy
 
-Plus particulièrement, l'entropie croisée binaire, se calcule comme la vraisemblance négative en régression logistique de $y|x$.
+Plus particulièrement, l'entropie croisée binaire, se calcule comme la vraisemblance négative en régression logistique d'une binomiale $y|x$.
 $$l(y,w) = -y\log(\sigma(f_w(x))) - (1-y)\log(1-\sigma(f_w(x)))$$
 
 Dans ce cas, $p$ est la probabilité (paramètre d'une binomiale) que $x$ appartienne à la région correspondant à la classe $y$, et $q$ la prédiction de $x$ : $\sigma(f_w(x))$.

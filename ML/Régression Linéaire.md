@@ -4,9 +4,9 @@
 
 <hr>
 
-L'objectif de ce [[Modèle Discriminatif]] (pas d'hypothèses sur les distributions de $X$ et $Y$) est de déterminer une application linéaire $f_w$ en faisant l'hypothèse :
+L'objectif de ce [[Modèle Discriminatif]] (pas d'hypothèses sur les distributions de $X$ et $Y$) est de déterminer une application linéaire $f_w$ de la forme $w_0 + \langle w,x\rangle$ (le biais $w_0$ est parfois inclus dans $w$ quitte à modifier les observations $x$) en faisant l'hypothèse :
 $$Y\sim X + \epsilon$$
-où $\epsilon$ est une variable aléatoire représentant du bruit gaussien d'espérance nulle et de variance $\sigma^2$.
+où $\epsilon$ est une variable aléatoire représentant du bruit gaussien d'espérance nulle et de variance $\sigma^2$. Il s'agit, comme son nom l'indique, d'un [[Modèle Linéaire]].
 
 En moyenne, les sorties sont linéaires par rapport aux entrées :
 $$\mathbb{E}[y|x] = w_0 + \sum_{i=1}^dw_ix_i$$

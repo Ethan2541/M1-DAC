@@ -22,7 +22,7 @@ qui forment une partition de l'ensemble de départ $X_{train}$ et $X_{test}$ sur
 
 Afin d'obtenir des estimations plus robustes et moins biaisées des performances du modèle, il est conseillé de répéter le processus plusieurs fois.
 
-On découpe parfois le jeu de données en 3 pour introduire un jeu de validation avec lequel choisir le modèle parmi les candidats entraînés sur le jeu d'apprentissage (hyperparamètres, ...). Dans ce cas, le jeu de validation est formé à partir d'environ $10\%$ du jeu de données, à hauteur égale avec le jeu de test. Cet ensemble permet notamment de contrôler le surapprentissage en mettant fin à la phase d'apprentissage prématurément.
+On découpe parfois le jeu de données en 3 pour introduire un jeu de validation avec lequel choisir le modèle parmi les candidats entraînés sur le jeu d'apprentissage (hyperparamètres, ...). Dans ce cas, le jeu de validation est formé à partir d'environ $10\%$ du jeu de données, à hauteur égale avec le jeu de test. Cet ensemble permet notamment de contrôler le surapprentissage en mettant fin à la phase d'apprentissage prématurément (notamment lorsque la [[Fonction de Coût]] est stabilisée).
 
 
 ## Random Shuffling
