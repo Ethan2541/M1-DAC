@@ -7,7 +7,7 @@
 
 La validation croisée est une méthode permettant d'évaluer la fiabilité d'un modèle. 
 
-Cependant, cette méthode est sensible au déséquilibre de classes (cf. [[Équilibrage des classes]]). Il peut être intéressant d'utiliser des [[Courbes ROC]], des [[Courbes Précision-Rappel]], ou la métrique de [[F1 Score]] afin d'évaluer les performances d'un classifieur sur la classe minoritaire.
+Cependant, cette méthode est sensible au déséquilibre de classes (cf. [[Équilibrage des classes]]). Il peut être intéressant d'utiliser des [[Courbes ROC]], des [[Courbes Précision-Rappel]], ou la métrique de [[Score F1]] afin d'évaluer les performances d'un classifieur sur la classe minoritaire.
 
 Une alternative à la validation croisée est la méthode du [[Train Test Split]].
 

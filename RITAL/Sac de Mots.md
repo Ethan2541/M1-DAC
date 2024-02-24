@@ -30,7 +30,7 @@ La tokenisation est une étape de pré-traitement qui consiste à découper les 
 
 Un document est représenté par l'histogramme des occurrences des mots qui le composent, sous la forme d'un vecteur de comptage, de taille fixe $|V|$.
 
-Dans certains cas, il est plus intéressant d'utiliser un vecteur binaire et ainsi ignorer la fréquence des termes en se ramenant à l'[[Encodage One-Hot]].
+Dans certains cas, il est plus intéressant d'utiliser un vecteur binaire et ainsi ignorer la fréquence des termes en se ramenant à l'[[Encodage Un parmi N]].
 
 ### Normalisations
 
