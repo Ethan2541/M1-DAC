@@ -34,6 +34,6 @@ Cette méthode n'est pas adaptée pour les espaces de haute dimension car la dis
 <hr>
 
 La méthode de Parzen-Rosenblatt propose une implémentation de l'estimation par noyau. Elle repose sur la création de fenêtres de taille $\sigma$ autour des points observés. On perd ainsi les effets de bord.
-$$\hat{f_\sigma}(x) = \frac{1}{NV}\sum_{i=1}^N\phi\left(\frac{x-x_i}{\sigma}\right)$$
-où $\phi$ est un [[Noyau]] qui correspond à un genre de lissage permettant de tenir davantage compte des données proches que des données éloignées. En particulier, $\lim_{x\rightarrow +\infty} = 0$. Un exemple très courant est le noyau gaussien :
+$$p(x) = \hat{f_\sigma}(x) = \frac{1}{N}\sum_{i=1}^N\frac{1}{V}\phi\left(\frac{x-x_i}{\sigma}\right)$$
+où la somme normalisée par le volume compte le nombre de points, et où $\phi$ est un [[Noyau]] qui correspond à un genre de lissage permettant de tenir davantage compte des données proches que des données éloignées. En particulier, $\lim_{x\rightarrow +\infty} = 0$. Un exemple très courant est le noyau gaussien :
 $$\phi(x) = \frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}x^2}$$
