@@ -12,17 +12,17 @@ Les paramètres de cet algorithme sont :
 - Le seuil de convergence $\epsilon$ permettant de mettre déterminer si l'algorithme a convergé
 
 
-## Intuition
+## Démonstration
 
 <hr>
+
+Intuitivement, comme la direction du gradient donne le sens de variation maximale, la direction opposée au gradient permet donc de minimiser la fonction.
 
 D'après le développement de Taylor, pour une fonction $f$ différentiable en $w_0$ :
 $$f(w) = f(w_0) + \nabla_wf(w_0)(w-w_0) + O(\|w-w_0\|^2)$$
 On en déduit qu'en bougeant de $h$ dans la direction $u$, on a :
 $$f(w_0 + \alpha u) - f(w_0) = \alpha\nabla_wf(w_0)u + \alpha^2O(1)$$
-Pour faire décroître $f$, il faut donc minimiser $\nabla_wf(w_0)u$.
-
-On choisit de bouger dans la direction du gradient d'où $u = - \frac{\nabla_wf(w_0)}{\|\nabla_wf(w_0)\|}$.
+Pour faire décroître $f$, il faut donc minimiser $\nabla_wf(w_0)u$. On choisit donc bouger dans la direction opposée au gradient pour minimiser la projection, d'où $u = - \frac{\nabla_wf(w_0)}{\|\nabla_wf(w_0)\|}$ unitaire.
 
 
 ## Algorithme

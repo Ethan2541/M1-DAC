@@ -11,7 +11,7 @@ De telles fonctions sont généralement choisies :
 - Régulières (différentiables) : même si ce n'est pas grave qu'elles ne soient pas différentiables en tout point
 
 
-## Types de Fonctions de Coût
+## Fonctions de Coût usuelles
 
 <hr>
 
@@ -26,8 +26,8 @@ Cette fonction permet ainsi de compter le nombre de classifications correctes.
 ### Hinge Loss
 
 Cette fonction est communément utilisée pour les modèles du type [[Machines à Vecteurs de Support]] ou [[Perceptron]].
-$$l(y,w) = \max \{0, \alpha + 1 - yw^tx\}$$
-où $\alpha$ est une marge permettant de mieux séparer les valeurs nulles des valeurs non nulles.
+$$l(y,w) = \max \{0, \alpha - yw^tx\}$$
+où $\alpha$ est une marge permettant de mieux séparer les valeurs nulles des valeurs non nulles. Cette fonction pénalise les données mal classifiées selon leur distance par rapport à la frontière de décision $\text{sgn}(yw^tx)$.
 
 ### Cross Entropy
 
