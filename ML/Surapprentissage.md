@@ -19,7 +19,7 @@ Il s'oppose conceptuellement au sous-apprentissage qui se produit lorsque le mod
 
 <hr>
 
-**Complexité du modèle :** un modèle avec de nombreux paramètres (haute dimension) est plus susceptible de souffrir de surapprentissage
+**Complexité du modèle :** un modèle avec de nombreux paramètres (haute dimension) est plus susceptible de souffrir de surapprentissage. Ainsi, plus l'ensemble des fonctions possibles $\mathcal{F}$ est grand, plus le risque de surapprentissage est élevé
 - *Des polynômes de degré élevés pourront par exemple passer par chaque point du jeu d'entraînement alors qu'une droite pourrait constituer une meilleure approximation du modèle*
 
 **[[Données Parcimonieuses]] :** le manque de données conduit le modèle à porter davantage son attention sur le bruit de l'ensemble d'entraînement
