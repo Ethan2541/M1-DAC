@@ -8,7 +8,7 @@ Si l'on se donne une entrée $x$, alors il s'agit de trouver les $K$ plus proche
 
 ![[knn.jpg]]
 
-Le choix de $K$ est primordial mais dépend avant tout du jeu de données. De manière générale, des petites valeurs de $K$ conduisent à des frontières de décision instables et augmentent le risque de surapprentissage, alors que des valeurs de $K$ élevées sont plus sensibles au bruit.
+Le choix de $K$ est primordial mais dépend avant tout du jeu de données. De manière générale, des petites valeurs de $K$ conduisent à des frontières de décision instables et augmentent le risque de surapprentissage, car moins sensibles au bruit.
 
 De plus, choisir $K$ impair permet d'éviter les égalités dans les problèmes de classification empêchant de définir clairement la classe de $x$.
 
