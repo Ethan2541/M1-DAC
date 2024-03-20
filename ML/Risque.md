@@ -1,7 +1,7 @@
 
 
 Le risque associé à point, pour une [[Fonction de Coût]] $l$, correspond à son espérance.
-$$R(y_i|x) = \sum_j l(y_i,y_j)p(y_i|x)$$
+$$R(y_i|x) = \sum_j l(y_i,y_j)p(y_j|x)$$
 Dans le cas de la 0-1 loss, le risque associé vaut $1 - p(y_i|x)$.
 
 
@@ -18,4 +18,4 @@ $$R^*_{l,p}(f) = \min_{f:\mathcal{X}\mapsto\mathcal{Y}}\int_\mathcal{X} R(f(x)|x
 
 
 Pour mesurer le risque, on calcule le risque empirique sur $n$ échantillons :
-$$\hat{R}^*_{n,l}(f) = \sum_{i=1}^n l(f(x),y)$$
+$$\hat{R}_{n,l,p}(f) = \frac{1}{n}\sum_{i=1}^n l(f(x),y)$$
